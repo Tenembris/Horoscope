@@ -1,0 +1,21 @@
+﻿<Window x:Class="Horoskop.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Horoskop"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="106,95,0,0" VerticalAlignment="Top" Width="41"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="106,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.477,1.659"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="106,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="Birthdate Date" HorizontalAlignment="Left" Margin="106,235,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textboximie" HorizontalAlignment="Left" Height="26" Margin="280,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+        <TextBox x:Name="textboxemail" HorizontalAlignment="Left" Height="26" Margin="280,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <DatePicker x:Name="datapicker1" HorizontalAlignment="Left" Margin="280,237,0,0" VerticalAlignment="Top" Width="163"/>
+        <Button Content="Zarejestruj się" HorizontalAlignment="Left" Margin="295,318,0,0" VerticalAlignment="Top" Height="25" Width="105" Click="Button_Click"/>
+        <PasswordBox x:Name="PasswordBoxHaslo" HorizontalAlignment="Left" Margin="280,151,0,0" VerticalAlignment="Top" Width="163"/>
+
+    </Grid>
+</Window>

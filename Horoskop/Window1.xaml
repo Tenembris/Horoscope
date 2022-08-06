@@ -1,0 +1,34 @@
+﻿<Window x:Class="Horoskop.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Horoskop"
+        mc:Ignorable="d"
+        Title="Window1" Height="457" Width="800">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="741*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Baran"  HorizontalAlignment="Left" Height="35                 " Margin="0,1,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1" Grid.ColumnSpan="2" Content="Aries"/>
+        <Button Content="Taurus" HorizontalAlignment="Left" Height="35                 " Margin="0,36,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_2" Grid.ColumnSpan="2"/>
+        <Button Content="Gemini" HorizontalAlignment="Left" Height="35                 " Margin="0,71,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_3" Grid.ColumnSpan="2"/>
+        <Button Content="Cancer" HorizontalAlignment="Left" Height="35                 " Margin="0,106,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_4" Grid.ColumnSpan="2"/>
+        <Button Content="Leo" HorizontalAlignment="Left" Height="35                 " Margin="0,141,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_5" Grid.ColumnSpan="2"/>
+        <Button Content="Virgo" HorizontalAlignment="Left" Height="35                 " Margin="0,176,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_6" Grid.ColumnSpan="2"/>
+        <Button Content="Libra" HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="112" Click="Button_Click_7" Margin="0,211,0,0" Grid.ColumnSpan="2"/>
+        <Button Content="Scorpio" HorizontalAlignment="Left" Height="35                 " Margin="0,246,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_8" Grid.ColumnSpan="2"/>
+        <Button Content="Sagittarius" HorizontalAlignment="Left" Height="35                 " Margin="0,281,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_9" Grid.ColumnSpan="2"/>
+        <Button Content="Capricorn" HorizontalAlignment="Left" Height="35                 " Margin="0,316,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_10" Grid.ColumnSpan="2"/>
+        <Button Content="Aquarius" HorizontalAlignment="Left" Height="46" Margin="0,351,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_11" Grid.ColumnSpan="2"/>
+        <Button Content="Pisces" Margin="0,397,0,0" Click="Button_Click_12" Height="45" VerticalAlignment="Top" HorizontalAlignment="Left" Width="112" Grid.ColumnSpan="2"/>
+        <Image x:Name="picHolder" HorizontalAlignment="Left" Height="157" Margin="503,159,0,0" VerticalAlignment="Top" Width="236" Source="/znaki/Baran.png" Grid.Column="1"/>
+        <TextBlock x:Name="Wish2" HorizontalAlignment="Left" Margin="58,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="425" Width="443" Grid.Column="1"/>
+
+    </Grid>
+</Window>
